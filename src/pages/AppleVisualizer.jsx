@@ -10,7 +10,7 @@ const stages = [
   { id: 5, name: "Stage 5", subtitle: "Harvest Ready" },
 ];
 
-export default function AppleVisualizerMap() {
+export default function AppleStageChecker() {
   const navigate = useNavigate();
 
   return (
@@ -47,3 +47,7 @@ export default function AppleVisualizerMap() {
     </div>
   );
 }
+
+
+
+
