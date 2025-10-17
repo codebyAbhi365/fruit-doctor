@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import AppleVisualizer from "./pages/AppleVisualizer";
+import AppleStageChecker from "./pages/AppleVisualizer";
 import Navbar from "./pages/Navbar";
 import Viewer from "./pages/Viewer";
 // import Footer from "./pages/Footer";
@@ -22,7 +22,7 @@ function App() {
             <Route path="/ar" element={<AppleAR />} />
             <Route path="/stage/0" element={<Stage0 />} />
             <Route path="/stage/1" element={<Stage1 />} />
-            <Route path="/apple-visualizer" element={<AppleVisualizer />} />
+            <Route path="/apple-visualizer" element={<AppleStageChecker />} />
           </Routes>
         </main>
         
